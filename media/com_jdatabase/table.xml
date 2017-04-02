@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <database name="">
+        <table_structure name="#__jdatabase">
+            <field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
+            <field Field="name" Type="varchar(50)" Null="YES" Key="" Extra="" />
+            <field Field="description" Type="text" Null="YES" Key="" Extra="" />
+            <field Field="created_on" Type="datetime" Null="NO" Key="" Default="0000-00-00 00:00:00" Extra="" />
+            <key Table="#__jdatabase" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Null="" Index_type="BTREE" Comment="" />
+        </table_structure>
+    </database>
+</mysqldump>
